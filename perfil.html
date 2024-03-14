@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./logo/logo-Photoroom.png-Photoroom.png" alt="Logo Basquet Arg" class="logoNavbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#">Mensajes</a></li>
+                <li><a href="#">Notificaciones</a></li>
+                <li><a href="#">Nuevo Post</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="tituloPerfil">Perfil del Jugador</h1>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <img src="./logo/foto perfil vacia.png" alt="">
+            </div>
+            <div class="col">
+                <section class="Perfil">
+                    <p id='nombre'>Nombre: </p>
+                    <p id='posicion'>Posicion: </p>
+                    <p id="estatura">Estatura: </p>
+                    <p id="equipo">Equipo: </p>
+                    <button onclick="editar()">Editar Perfil</button>
+                </section>
+            </div>
+            <div class="col">
+                estadisticas de temporada
+            </div>
+        </div>
+    </div>
+    <section>
+        <h2>estadisticas</h2>
+        <table class="table tabla">
+            <thead>
+                <tr>
+                    <th scope="col">minutos jugados</th>
+                    <th scope="col">Puntos</th>
+                    <th scope="col">Rebotes</th>
+                    <th scope="col">Asistencias</th>
+                    <th scope="col">Recuperos</th>
+                    <th scope="col">perdidas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

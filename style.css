@@ -17,6 +17,8 @@
     bottom: 0;
     width: 210px;
     overflow-y: auto;
+    border-right: rgb(180, 179, 179) solid 1px;
+    
 }
 
 .navbar ul {
@@ -101,10 +103,28 @@
     top: 520px;
     left: 320px;
 }
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    margin: 0;
+}
+.Perfil{
+    position: relative;
+    left: -220px;
+    bottom: -20px;
+}
 
-@media (max-width: 768px) {
+.tituloPerfil{
+    width: 400px;
+    position: relative;
+    right: -600px;
+}
 
-    .Logoindex,
-    .formularioindex {
-        width: 90%;
-        padding: 10px
+
+.tabla{
+    position: relative;
+    right: -500px;
+    width: 1000px;
+}
+
