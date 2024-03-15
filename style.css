@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -18,7 +20,7 @@
     width: 210px;
     overflow-y: auto;
     border-right: rgb(180, 179, 179) solid 1px;
-    
+
 }
 
 .navbar ul {
@@ -32,7 +34,7 @@
 
 .navbar li {
     padding: 20px;
-    
+
 }
 
 .navbar a {
@@ -103,28 +105,106 @@
     top: 520px;
     left: 320px;
 }
+
 .header {
     text-align: center;
     padding: 10px;
     background-color: #4CAF50;
     margin: 0;
 }
-.Perfil{
+
+.Perfil {
     position: relative;
-    left: -220px;
+    left: -180px;
     bottom: -20px;
 }
 
-.tituloPerfil{
+.tituloPerfil {
     width: 400px;
     position: relative;
     right: -600px;
 }
 
 
-.tabla{
+.tabla {
     position: relative;
     right: -500px;
     width: 1000px;
 }
 
+
+.contenedor {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.contenedor p {
+    margin: 30px 0;
+    font-size: 2.5em;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 162, 253);
+    border: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(31, 31, 145);
+}
+
+.img {
+    width: 50%;
+}
+
+.contenedor-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-modal.mostrar {
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.contenedor-modal .modal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 500px;
+    padding: 50px;
+    background-color: #fff;
+    opacity: 1;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin: 15px;
+    padding: 10px;
+}
