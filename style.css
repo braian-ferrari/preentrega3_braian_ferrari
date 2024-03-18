@@ -208,3 +208,36 @@ form input {
     margin: 15px;
     padding: 10px;
 }
+
+.datos-Perfil li {
+    list-style-type: none;
+}
+
+.contenedor-modal-estadisticas {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-estadisticas {
+    position: fixed;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.tabla {
+    max-width: 800px;
+    /* Limita el ancho máximo de la tabla */
+    margin-left: 240px;
+    /* Ajusta el margen izquierdo para evitar que se superponga al navbar */
+}
