@@ -237,7 +237,6 @@ form input {
 
 .tabla {
     max-width: 800px;
-    /* Limita el ancho máximo de la tabla */
     margin-left: 240px;
-    /* Ajusta el margen izquierdo para evitar que se superponga al navbar */
+    
 }
